@@ -12,7 +12,7 @@ class DockerJenkinsIntgerationSampleApplicationTests {
 	private static final Logger logger = LogManager.getLogger(DockerJenkinsIntgerationSampleApplicationTests.class);
 
 	@Test
-	contextLoads() {
+	void contextLoads() {
 		logger.info("Test executing second log statements...");
 		Assertions.assertEquals(true,true);
 	}
