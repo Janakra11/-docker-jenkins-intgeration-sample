@@ -13,7 +13,6 @@ class DockerJenkinsIntgerationSampleApplicationTests {
 
 	@Test
 	void contextLoads() {
-		logger.info("Test executed...");
 		logger.info("Test executing second log statements...");
 		Assertions.assertEquals(true,true);
 	}
